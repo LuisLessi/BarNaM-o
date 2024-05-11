@@ -1,0 +1,36 @@
+Desafio: Desenvolvimento de um Sistema de Pedidos para um Bar
+Objetivo:
+
+Desenvolver um sistema de pedidos para um bar, onde os clientes podem visualizar o menu, fazer pedidos e acompanhar o status dos pedidos em tempo real. O sistema deve ser composto por uma API em Symfony, uma interface de usuário em Vue.js ou React.js, e deve utilizar um banco de dados PostgreSQL.
+
+Requisitos:
+
+Backend (API Symfony):
+Criar um modelo de dados para representar o menu do bar, contendo nome do produto, descrição, preço e categoria.
+Implementar endpoints para:
+Listar todos os produtos do menu.
+Adicionar um novo produto ao menu.
+Atualizar um produto existente.
+Remover um produto do menu.
+Receber pedidos dos clientes, incluindo os itens solicitados e o status do pedido.
+Atualizar o status dos pedidos conforme forem sendo processados.
+Utilizar autenticação JWT para proteger os endpoints relacionados aos pedidos.
+Frontend (Vue.js ou React.js):
+Criar uma interface de usuário responsiva que permita aos clientes:
+Visualizar o menu do bar.
+Adicionar itens ao carrinho de compras.
+Visualizar e remover itens do carrinho de compras.
+Enviar um pedido ao bar.
+Acompanhar o status do pedido em tempo real.
+Utilizar WebSocket para atualizar automaticamente o status dos pedidos conforme forem sendo processados pelo backend.
+Entrega:
+
+Você deve fornecer o código fonte completo do projeto, incluindo instruções claras sobre como executar a aplicação localmente. O projeto deve ser entregue em um repositório GitHub. E enviá-lo para willian.sisinfo@gmail.com
+
+Critérios de Avaliação:
+
+Funcionalidade completa e correta do sistema, conforme os requisitos especificados.
+Boa organização e estruturação do código.
+Utilização adequada das tecnologias escolhidas (Symfony, Vue.js ou React.js, PostgreSQL).
+Interface de usuário intuitiva e responsiva.
+Boas práticas de segurança, como autenticação JWT e proteção contra vulnerabilidades comuns.
